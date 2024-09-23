@@ -9,7 +9,6 @@ Tasky is a backend server designed for a real-time task management system using 
 - User authentication with JWT
 - Task management with MongoDB
 - Rate-limiting and security with Helmet
-- Email notifications via Nodemailer and Pug templates
 
 ## Getting Started
 
@@ -107,7 +106,6 @@ npm start
 - **socket.io**: For real-time communication.
 - **mongoose**: MongoDB ORM.
 - **jsonwebtoken**: For handling JWT authentication.
-- **nodemailer**: For sending email notifications.
 - **helmet**: Adds security headers to the Express server.
 - **rate-limiter**: For limiting the rate of requests to the server.
 
